@@ -4,17 +4,14 @@
 */
 
 define([
-    '../lib/WaterFall',
-    '../lib/functions'
+    '/lib/WaterFall.js',
+    '/lib/functions.js'
 ], function (WaterFall,$func) {
-	
-
-	
     var Case={
         init: function () {
         	function Ajax(){
 				$.ajax({
-			        url:'/views/template_8/list.html',
+			        url:'/view/project1/list.html',
 			        type: 'get',
 			        data : {
 			            
@@ -37,39 +34,39 @@ define([
 	                        }
 	                    }*/
 			        	var base_datalist=[{
-			        		"img": "/uploadFile/template_8/Case_list_01.png"
+			        		"img": "/uploadFile/Case_list_01.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_02.png"
+			        		"img": "/uploadFile/Case_list_02.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_03.png"
+			        		"img": "/uploadFile/Case_list_03.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_04.png"
+			        		"img": "/uploadFile/Case_list_04.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_05.png"
+			        		"img": "/uploadFile/Case_list_05.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_04.png"
+			        		"img": "/uploadFile/Case_list_04.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_01.png"
+			        		"img": "/uploadFile/Case_list_01.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_06.png"
+			        		"img": "/uploadFile/Case_list_06.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_05.png"
+			        		"img": "/uploadFile/Case_list_05.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_06.png"
+			        		"img": "/uploadFile/Case_list_06.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_03.png"
+			        		"img": "/uploadFile/Case_list_03.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_06.png"
+			        		"img": "/uploadFile/Case_list_06.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_01.png"
+			        		"img": "/uploadFile/Case_list_01.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_06.png"
+			        		"img": "/uploadFile/Case_list_06.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_02.png"
+			        		"img": "/uploadFile/Case_list_02.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_04.png"
+			        		"img": "/uploadFile/Case_list_04.png"
 			        	},{
-			        		"img": "/uploadFile/template_8/Case_list_06.png"
+			        		"img": "/uploadFile/Case_list_06.png"
 			        	}];
 
 			        	var WaterFall_para = {

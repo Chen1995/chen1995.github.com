@@ -4,7 +4,7 @@
 */
 
 define([
-    '../lib/baidu_map'
+    '/lib/baidu_map.js'
 ], function (baidu_map) {	
     var LinkUS={
         init: function () {
