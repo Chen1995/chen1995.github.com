@@ -4,9 +4,9 @@
 */
 
 define([
-    '../../lib/RotatingBanner',
-    "../../lib/functions",
-    "../../lib/GrayScale",
+    '/lib/RotatingBanner.js',
+    "/lib/functions.js",
+    "/lib/GrayScale.js",
     "modules/module_Index_service",
     "modules/modules_Product"
 ], function (RotatingBanner,functions,GrayScale,module_Index_service,modules_Product) {

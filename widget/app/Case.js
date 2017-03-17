@@ -4,8 +4,8 @@
 */
 
 define([
-    '../../lib/WaterFall',
-    '../../lib/functions'
+    '../lib/WaterFall',
+    '../lib/functions'
 ], function (WaterFall,$func) {
 	
 

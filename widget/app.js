@@ -1,7 +1,7 @@
 
 
 
-define(["/widget/lib/jquery.min.js","modules/userControl"], function() {
+define(["../lib/jquery.min.js","modules/userControl"], function() {
     var page_name = $("#script_page").attr("page");
 
     switch (page_name) {
